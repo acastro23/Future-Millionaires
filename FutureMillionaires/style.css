@@ -1,0 +1,125 @@
+/* This portion of css was designed for the index.html page, but some containers will share the same name so you may see this style be applied to the other pages */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.IndexPageBackGround {
+    background-image: url('Images/MainBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.button {
+    padding: 10px 15px; 
+    background-color: gold; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+/* Should probably make the color darker when you hover over the button, reminder to do that later */
+.button:hover {
+    background-color: lightyellow;
+}
+
+/* This portion of css is for the registration page */
+
+.register-container {
+    background-color: white; 
+    border: 1px solid black;
+    padding: 25px; 
+    max-width: 500px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-form {
+    width: 100%; 
+    margin-bottom: 15px;
+}
+
+.register-form label {
+    display: inline-block;
+    width: 30%; 
+    text-align: right;
+    margin-right: 10px; 
+}
+
+.register-form input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+
+.register-form .button {
+    margin-left: 100px;         /* This is for the register button on register.html, could use some fine tuning i think....*/
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* This portion of css is mainly for the login.html */
+
+.login-container {
+    background-color: white;
+    border: 1px solid black;
+    padding: 25px; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginInput {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.loginInput label {
+    margin-right: 10px;
+    width: 25%; 
+    text-align: right;
+}
+
+.loginInput input {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+
+.lobby-container p {
+    text-align: center; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
