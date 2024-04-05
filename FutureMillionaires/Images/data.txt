@@ -1,5 +1,0 @@
-Alice,200
-Bob,300
-Charlie,200
-Jack,180
-Mike,160
