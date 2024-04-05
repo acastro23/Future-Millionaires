@@ -16,7 +16,7 @@
             margin:0px;
         }
         body{
-            background-image: url('./MainBackground.png');
+            background-image: url('Images/MainBackground.png');
             background-size:100%;
             /* background-attachment:fixed; */
             background-repeat: no-repeat;  
