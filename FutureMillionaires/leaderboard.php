@@ -100,7 +100,7 @@
     </tr>
     <?php
 
-$filename = 'data.txt';
+$filename = 'user_scores.txt';
 $file_content = file($filename, FILE_IGNORE_NEW_LINES);
 
 if ($file_content !== false) {

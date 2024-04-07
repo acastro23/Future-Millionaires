@@ -111,6 +111,10 @@
   <main>
 
     <div>
+      <a style="color:black;font-weight:bold;" href="lobby.html">Back to lobby</a>
+    </div>
+
+    <div>
       <h1>
         Question: <?= $currQuestion + 1 ?>
       </h1>

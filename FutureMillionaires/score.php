@@ -53,6 +53,10 @@
       echo $str;
     }
     ?>
+
+    <form action="logout.php" method="post" class="logout-button">
+      <button type="submit" class="button logout_button">Logout</button>
+    </form>
   </main>
 </body>
 </html>

@@ -6,7 +6,7 @@
     <title>Lobby - Who Wants to Be a Millionaire</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body class="lobby-page">
 
     <div class="lobby-container">
         <h1>Welcome to the Lobby!</h1>
@@ -14,6 +14,12 @@
         <div class="button-container">
             <button onclick="window.location.href='play.php';" class="button">Play</button>
             <button onclick="window.location.href='leaderboard.php';" class="button">Leaderboard</button>
+
+            <!-- A logout functionality would be good to add here, this comment serves a reminder -->
+            <form action="logout.php" method="post" class="logout-button">
+                <button type="submit" class="button">Logout</button>
+            </form>
+
         </div>
     </div>
 

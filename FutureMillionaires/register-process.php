@@ -14,7 +14,7 @@ $lname = trim($_POST['lastname']);
 $password = trim($_POST['password']);
 $password_confirm = trim($_POST['password_confirm']);
 
-// I'll ask users to confirm passwords just like in many register pages, and the passwords will eb checked using an if statement
+// I'll ask users to confirm passwords just like in many register pages, and the passwords will be checked using an if statement
 if($password !== $password_confirm) {
     die('Passwords do not match. Please Try again!');
 }
@@ -23,9 +23,8 @@ $Text_Entry = "Username: $username, FirstName: $fname, LastName: $lname, Passwor
 
 
 if(file_put_contents($File, $Text_Entry, FILE_APPEND | LOCK_EX) == false) {
-    die("An error has occured with saving your information");
+    die("An error has occurred with saving your information");
 }
 
 echo'You have been Registered. <a href="login.html">Login In Here</a>';
-
 ?>

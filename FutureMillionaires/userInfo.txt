@@ -1,3 +1,3 @@
 Username: acastro23, FirstName: Alex, LastName: Castro, Password: Alexc2024
 Username: bob123, FirstName: Bob, LastName: Smith, Password: Bob12345
-Username: satvik, FirstName: se, LastName: se, Password: Qwerty
+Username: satvik, FirstName: satvik, LastName: seeran, Password: Qwerty
