@@ -1,0 +1,10 @@
+What was the name of the first commercial video game released?:Space Invaders:Pac-Man:Pong:Donkey Kong:3;
+In what year did the first iPhone debut?:2006:2008:2010:2007:2;
+Who is the author of the Harry Potter series?:Stephen King:George R.R. Martin:J.R.R. Tolkien:J.K. Rowling:4;
+What is the largest planet in our solar system?:Mars:Venus:Saturn:Jupiter:4;
+Which mammal is capable of flying?:Kangaroo:Platypus:Beaver:Bat:4;
+What is the chemical symbol for water?:O:CO2:H2O:N2:3;
+Who painted the Mona Lisa?:Pablo Picasso:Vincent van Gogh:Rembrandt:Leonardo da Vinci:4;
+Which country is commonly associated with the invention of pizza?:Greece:France:Italy:Spain:3;
+What is the capital city of Australia?:Sydney:Melbourne:Canberra:Brisbane:3;
+What is the highest mountain in the world?:K2:Mount Kilimanjaro:Mount Everest:Mount Fuji:3;

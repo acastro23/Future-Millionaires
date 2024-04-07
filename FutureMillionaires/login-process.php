@@ -28,6 +28,7 @@
      }
      
      if ($loginStatus) {
+        setcookie("username", $username);
          header('Location: lobby.html');
          exit;
      } else {
