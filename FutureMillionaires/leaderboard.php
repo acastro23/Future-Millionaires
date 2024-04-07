@@ -128,13 +128,13 @@ if ($file_content !== false) {
         $tr_class = $rank <= 3 ? "top-rank" : "";
 
 
-        $medalImg = "";
+      $medalImg = "";
         if ($rank == 1) {
-            $medalImg = "<img src='1.png' class='medal' >";
+            $medalImg = "<img src='Images/1.png' class='medal' >";
         } elseif ($rank == 2) {
-            $medalImg = "<img src='2.png' class='medal' >";
+            $medalImg = "<img src='Images/2.png' class='medal' >";
         } elseif ($rank == 3) {
-            $medalImg = "<img src='3.png' class='medal' >";
+            $medalImg = "<img src='Images/3.png' class='medal' >";
         }
 
         echo "<tr class=\"$tr_class\">
